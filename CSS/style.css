@@ -5,32 +5,52 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header{
     position: fixed;
-    width: 70vw;
-    height: 5vh;
+    width: 100vw;
+    height: 6vh;
     background-color: rgb(42, 147, 165);
     display: inline-flex;
-    margin: 0, 15vw;
-    padding: auto;
-    transform: translate(15vw,0);
-    padding: 1rem, 1.5rem;
+    padding: 0 2.5vw;
 }
-header, h1{
-    font-size: 3vmin;
+header h1{
+    width: 20vw;
+    height: 3vh;
+    margin: 1vh 0 1.5vh 0;
 }
+
 #ferramentas{
-    float: left;
+    width: 55vw;
+    height: 6vh;
+    margin-left: 20vw;
 }
-#ferramentas, button{
+#ferramentas button{
+    width: 7vw;
+    height: 3vh;
+    margin: 1.5vh 1vw;
     background-color: transparent;
     border: 0;
-    font-size: 2vmin;
+    font-size: large;
 }
+#ferramentas button:hover{
+    color:red;
+}
+#ferramentas img{
+    width: 6vmin;
+    height: 6vmin;
+    position: absolute;
+}
+
+
+
+
+
+
+
 
 #conteudo{
     background-color: rgb(42, 147, 165);
-    width: 70vw;
-    transform: translate(15vw,0);
-    padding: 1.25em;
+    width: 100vw;
+    padding: 2vw 3vh;
 }
