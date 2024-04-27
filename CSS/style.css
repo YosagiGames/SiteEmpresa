@@ -4,8 +4,9 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
 }
-
+/*----------------------------- Barra superior -----------------------------*/
 header{
     position: fixed;
     width: 100vw;
@@ -41,14 +42,27 @@ header h1{
     height: 6vmin;
     position: absolute;
 }
+/*------------------------------------------------------------------------*/
+
+/*--------------------------------- Capa ---------------------------------*/
+#parte1{
+    padding-top: 6.5vh;
+    height: 65vmin;
+    display: inline-flex;
+}
+#titulos{
+    width: 40vw;
+    height: 20vmin;
+    padding: 22.5vmin 0 22.5vmin 10vw;
+}
+#parte1 img{
+    width: 60vmin;
+    height: 60vmin;
+}
 
 
 
-
-
-
-
-
+/*------------------------------------------------------------------------*/
 #conteudo{
     background-color: rgb(42, 147, 165);
     width: 100vw;
