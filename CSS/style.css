@@ -1,24 +1,37 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
 }
-/*----------------------------- Barra superior -----------------------------*/
+#conteudo{
+    background-color: rgb(42, 147, 165);
+    width: 100vw;
+    height: auto;
+    padding: 2vw 3vh;
+}
+.sessao{
+    height: 80vh;
+}
+/*------------------------------------------------------------------------*/
+/*---------------------------- Barra superior ----------------------------*/
 header{
     position: fixed;
     width: 100vw;
-    height: 6vh;
+    height: 6.5vh;
     background-color: rgb(42, 147, 165);
     display: inline-flex;
     padding: 0 2.5vw;
 }
 header h1{
     width: 20vw;
-    height: 3vh;
-    margin: 1vh 0 1.5vh 0;
+    height: 4.5vh;
+    margin: 0.6vh 0 1.5vh 0;
+    font-size: 4vmin;
+    overflow-y: hidden;
 }
 
 #ferramentas{
@@ -43,7 +56,6 @@ header h1{
     position: absolute;
 }
 /*------------------------------------------------------------------------*/
-
 /*--------------------------------- Capa ---------------------------------*/
 #parte1{
     padding-top: 6.5vh;
@@ -54,17 +66,62 @@ header h1{
     width: 40vw;
     height: 20vmin;
     padding: 22.5vmin 0 22.5vmin 10vw;
+    font-size: 4vmin;
+    color: white;
+}
+#titulos h3{
+    font-size: 3vmin;
+    padding-left: 6vw;
 }
 #parte1 img{
     width: 60vmin;
     height: 60vmin;
 }
-
-
-
 /*------------------------------------------------------------------------*/
-#conteudo{
-    background-color: rgb(42, 147, 165);
-    width: 100vw;
-    padding: 2vw 3vh;
+/*----------------------------- Sobre o Jogo -----------------------------*/
+#sobreJogo div{
+    background-color: aquamarine;
+    width: 45vw;
+    height: 40vh;
+}
+#sobreJogo img{
+    position: absolute;
+    margin-left: 25vw;
+    transform: translate(0, -25vh);
+}
+/*------------------------------------------------------------------------*/
+/*---------------------------- Sobre a equipe ----------------------------*/
+#equipe{
+    width: auto;
+    display: inline-flex;
+}
+.membro{
+    background-color: rgb(83, 83, 83);
+    width: 20vw;
+    height: 60vh;
+    text-align: center;
+    margin: 0 2vw;
+}
+.membro .infoMembro{
+    display: block;
+    padding-top: 2vh;
+    background-color: rgb(155, 155, 155);
+}
+.membro img{
+    width: 13vw;
+    height: 13vw;
+    margin: 4vh 0;
+}
+.membro h3{
+    width: 20vw;
+    height: 4vh;
+    margin-bottom: 2vh;
+    padding-top: 1.5vh;
+    background-color: blue;
+}
+.membro ul{
+    list-style: none;
+}
+.membro ul li{
+    margin-top: 1vh;
 }
