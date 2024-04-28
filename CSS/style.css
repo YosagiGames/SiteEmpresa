@@ -12,12 +12,12 @@ body{
     width: 90vw;
     height: auto;
     margin: 0 2.5vw;
-    padding: 2vw 3vh;
+    padding: 2.5vw 3vh;
 }
 .sessao{
     width: 90vw;
     height: 80vh;
-    margin-bottom: 3vh;
+    margin-bottom: 20vh;
 }
 /*------------------------------------------------------------------------*/
 /*---------------------------- Barra superior ----------------------------*/
@@ -91,16 +91,17 @@ header h1{
 /*------------------------------------------------------------------------*/
 /*----------------------------- Sobre o Jogo -----------------------------*/
 #sobreJogo{
-    background-color: black;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.8756.13718773309227929.36e1f99a-b689-4a29-822c-9d35967895fd.ddb6bcde-0936-4bac-b835-ee541bd90364);
     overflow-y: hidden;
-    padding: 3vh 3vw;
 }
 #sobreJogo div{
-    background-color: white;
-    width: 40vw;
-    height: 53.4vh;
-    padding: 1vh 1vw 1vh 2vw;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 100),rgba(100, 0, 0, 50), transparent);
+    width: 70vw;
+    height: 80vh;
+    padding: 1vh 20vw 1vh 2vw;
     text-align: justify;
+    color: aliceblue;
+    font-size: 2vh;
 }
 #sobreJogo div p{
     width: 40vw;
@@ -120,7 +121,7 @@ header h1{
 }
 .membro{
     background-color: rgb(83, 83, 83);
-    width: 20vw;
+    width: 18vw;
     height: 60vh;
     text-align: center;
     margin: 0 2vw;
@@ -136,7 +137,7 @@ header h1{
     margin: 4vh 0;
 }
 .membro h3{
-    width: 20vw;
+    width: 18vw;
     height: 4vh;
     margin-bottom: 2vh;
     padding-top: 1.5vh;
@@ -155,9 +156,9 @@ header h1{
     border-radius: 30px;
     text-align: center;
     width: 60vw;
-    height: 80vh;
-    margin: 12.5vw;
-    padding: 2.5vh 2.5vw;
+    height: 65vh;
+    margin: 0 15vw;
+    overflow-y: hidden;
 }
 #contato textarea{
     background-color: aliceblue;
@@ -171,7 +172,24 @@ header h1{
 }
 #contato .email{
     height: 3vh;
+    margin-bottom: 2vh;
 }
 #contato .mensagem{
     height: 40vh;
+    margin-bottom: 1vh;
+}
+#contato h2{
+    width: 60vw;
+    height: 4vh;
+    border-radius: 30px;
+    background-color: rgb(182, 182, 255);
+    font-size: 3vh;
+    padding-top: 1vh;
+    margin-bottom: 3vh
+}
+#contato button{
+    width: 20vw;
+    height: 5vh;
+    font-size: 3vh;
+    border-radius: 30px;
 }
