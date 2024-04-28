@@ -7,14 +7,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
 }
-#conteudo{
+#caixa{
     background-color: rgb(42, 147, 165);
-    width: 100vw;
+    width: 90vw;
     height: auto;
+    margin: 0 2.5vw;
     padding: 2vw 3vh;
 }
 .sessao{
+    width: 90vw;
     height: 80vh;
+    margin-bottom: 3vh;
 }
 /*------------------------------------------------------------------------*/
 /*---------------------------- Barra superior ----------------------------*/
@@ -27,7 +30,7 @@ header{
     padding: 0 2.5vw;
 }
 header h1{
-    width: 20vw;
+    width: 25vw;
     height: 4.5vh;
     margin: 0.6vh 0 1.5vh 0;
     font-size: 4vmin;
@@ -37,12 +40,13 @@ header h1{
 #ferramentas{
     width: 55vw;
     height: 6vh;
-    margin-left: 20vw;
+    margin-left: 25vw;
+    padding: 0 2.5;
 }
 #ferramentas button{
     width: 7vw;
     height: 3vh;
-    margin: 1.5vh 1vw;
+    margin: 1.5vh 0.5vw;
     background-color: transparent;
     border: 0;
     font-size: large;
@@ -64,30 +68,49 @@ header h1{
 }
 #titulos{
     width: 40vw;
-    height: 20vmin;
-    padding: 22.5vmin 0 22.5vmin 10vw;
+    height: 50vh;
+    padding: 12vmin 0 0 10vw;
     font-size: 4vmin;
     color: white;
+    overflow-y: hidden;
 }
 #titulos h3{
     font-size: 3vmin;
     padding-left: 6vw;
 }
+#titulos p{
+    width: 30vw;
+    font-size: 1.8vmin;
+    padding-left: 6vw;
+}
 #parte1 img{
     width: 60vmin;
     height: 60vmin;
+    margin-left: 10vw;
 }
 /*------------------------------------------------------------------------*/
 /*----------------------------- Sobre o Jogo -----------------------------*/
+#sobreJogo{
+    background-color: black;
+    overflow-y: hidden;
+    padding: 3vh 3vw;
+}
 #sobreJogo div{
-    background-color: aquamarine;
-    width: 45vw;
-    height: 40vh;
+    background-color: white;
+    width: 40vw;
+    height: 53.4vh;
+    padding: 1vh 1vw 1vh 2vw;
+    text-align: justify;
+}
+#sobreJogo div p{
+    width: 40vw;
+    margin-bottom: 1.5vh;
 }
 #sobreJogo img{
-    position: absolute;
-    margin-left: 25vw;
-    transform: translate(0, -25vh);
+    width: 60vw;
+    height: 60vh;
+    left: 20vw;
+    bottom: 40vh;
 }
 /*------------------------------------------------------------------------*/
 /*---------------------------- Sobre a equipe ----------------------------*/
@@ -124,4 +147,31 @@ header h1{
 }
 .membro ul li{
     margin-top: 1vh;
+}
+/*------------------------------------------------------------------------*/
+/*------------------------------ Contatenos ------------------------------*/
+#contato{
+    background-color: gray;
+    border-radius: 30px;
+    text-align: center;
+    width: 60vw;
+    height: 80vh;
+    margin: 12.5vw;
+    padding: 2.5vh 2.5vw;
+}
+#contato textarea{
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: 0;
+    text-align: left;
+    width: 55vw;
+    padding: 1vh 1.5vw;
+    resize: none;
+    font-size: 2vh;
+}
+#contato .email{
+    height: 3vh;
+}
+#contato .mensagem{
+    height: 40vh;
 }
