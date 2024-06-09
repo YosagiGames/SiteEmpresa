@@ -15,9 +15,9 @@ body{
     padding: 2.5vw 3vh;
 }
 .sessao{
-    width: 90vw;
-    height: 80vh;
-    margin-bottom: 20vh;
+    width: 90vmax;
+    height: 35vmax;
+    margin-bottom: 5vh;
 }
 /*------------------------------------------------------------------------*/
 /*---------------------------- Barra superior ----------------------------*/
@@ -125,109 +125,113 @@ header h1{
     margin-bottom: 5vh;
     font-size: 4vw;
 }
+
 #membros{
     width: auto;
     display: inline-flex;
 }
-
 .membro{
     background-color: rgb(255, 255, 255);
-    width: 18vw;
-    height: 45vh;
+    width: 16vmax;
+    height: 19vmax;
     text-align: center;
     margin: 0 2vw;
-    border-radius: 30px 30px 0 30px;
+    border-radius: 0 2vmin;
+    overflow-y: hidden;
 }
+
 .membro .infoMembro{
     display: block;
     padding-top: 2vh;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(219, 219, 219);
 }
-.membro img{
-    width: 13vw;
-    height: 13vw;
-    margin: 4vh 0;
+.membro .infoMembro img{
+    width: 11vmax;
+    height: 13vmax;
+    margin: auto;
+}
+.membro h2{
+    font-size: 2vh;
 }
 .membro .links{
     display: inline-flex;
-    margin: 1vh 1vw;
-}
-
-.membro .links div{
-    padding-right: 4vh;
-    display: inline-flex;
+    margin-top:0.5vmax
 }
 .membro .links img{
-    width: 3vmin;
-    height: 3vmin;
-    margin: 0.5vh 0.25vw;
-    padding: 0.5vh 0.25vw;
+    width: 2vmax;
+    height: 2vmax;
+    margin: 0 0.25vmax;
+}
+.membro .links div{
+    padding-right: 1vmax;
+    display: inline-flex;
+    margin-top: 0.5vw;
+    margin-right: 2vmax;
+}
+.membro .links h4{
+    font-size: 1vmax;
+    width: 4.5vw;
+    margin: auto;
 }
 .membro h3{
     width: 18vw;
     height: 4vh;
-    margin-bottom: 2vh;
+    margin-bottom: 2vmin;
     padding-top: 1.5vh;
     position: absolute;
-    background-color: transparent;
-    transform: rotate(270deg) translate(11vw, -16vh);
-}
-.membro ul{
-    list-style: none;
-}
-.membro ul li{
-    margin-top: 1vh;
+    font-size: 1vmax;
+    transform: rotate(270deg) translate(11vmax, -27.8vmax);
 }
 /*------------------------------------------------------------------------*/
-/*----------------------------- Contate-0nos -----------------------------*/
+/*----------------------------- Contate-nos -----------------------------*/
 #contato{
     color: aliceblue;
-    border-radius: 30px;
+    border-radius: 2vmin;
     text-align: center;
-    width: 32.5vw;
+    width: 65vmin;
     height: 55vh;
-    margin: 0 26.25vw;
-    padding: 0 2.5vw 5vh 2.5vw;
+    margin: 0 auto;
     overflow-y: hidden;
 }
+#contato h2{
+    width: 40vmin;
+    height: 6vh;
+    border-radius: 2vmin;
+    font-size: 5vh;
+    margin: 1.5vh auto;
+}
 #contato div{
-    width: 20vw;
+    width: 40vmin;
     height: 37vh;
     background-color: rgba(92, 0, 0, 70);
     padding: 1.25vh 1.25vw;
-    border-radius: 30px;
-    margin: 0 5vw;
+    border-radius: 2vmin;
+    margin: 0 auto;
 }
 #contato textarea{
     background-color: rgba(65, 0, 0,70);
-    border-radius: 30px;
+    border-radius: 2vmin;
     border: 0;
     text-align: left;
-    width: 15vw;
+    width: 30vmin;
     padding: 1vh 1.5vw;
     resize: none;
     font-size: 2vh;
+    color: white;
 }
 #contato .email{
     height: 3vh;
     margin-bottom: 2vh;
 }
 #contato .mensagem{
-    height: 20vh;
+    height: 20vmin;
     margin-bottom: 1vh;
 }
-#contato h2{
-    width: 30vw;
-    height: 6vh;
-    border-radius: 30px;
-    font-size: 5vh;
-    margin: 1.5vh 1.25vw;
-}
 #contato button{
-    width: 7vw;
+    width: 14vmin;
     height: 5vh;
     font-size: 2vh;
-    border-radius: 30px;
+    border-radius: 4vmin;
     border: 0px;
     background-image: linear-gradient(rgb(83, 0, 0), red);
     color:aliceblue;
