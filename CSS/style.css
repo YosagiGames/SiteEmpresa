@@ -1,33 +1,35 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 100vw;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(85, 0, 0);
     color: white;
-    overflow-x: hidden;
+    font-size: 15px;
+    max-width: 100vw;
 }
 #caixa{
     background-color: rgb(146, 30, 30);
-    width: 90vw;
+    width: 99.5vw;
     height: auto;
-    margin: 10vh 3.1vw 0 3.1vw;
-    padding: 2.5vw 3vh;
 }
 .sessao{
-    width: 90vmax;
-    height: 42vmax;
-    margin-bottom: 5vh;
+    width: 90vw;
+    height: 90vh;
+    padding: 4vw;
+    margin: 0 1vw;
 }
 .titulo{
     margin-bottom: 5vh;
-    font-size: 4vw;
+    font-size: 4vmax;
 }
 /*------------------------------------------------------------------------*/
 /*----------------------------- Barra scroll -----------------------------*/
 ::-webkit-scrollbar {
-    width: 1vw;
+    width: 0.5vw;
 }
   
   ::-webkit-scrollbar-track {
@@ -40,7 +42,7 @@ body{
     height: 2px;
 }
   ::-webkit-scrollbar-thumb:hover {
-    background-image: linear-gradient(rgb(59, 0, 0), rgb(255, 0, 0),rgb(59, 0, 0));
+    background-image: linear-gradient(rgb(59, 0, 0), rgb(255, 208, 0),rgb(59, 0, 0));
 
 }
 /*------------------------------------------------------------------------*/
@@ -48,11 +50,10 @@ body{
 header{
     position: fixed;
     z-index: 1;
-    width: 100vw;
+    width: 99.5vw;
     height: 6.5vh;
-    background-color: rgb(58, 0, 0);
+    background-color: rgb(85, 0, 0);
     display: inline-flex;
-    padding: 0 2.5vw;
 }
 header h1{
     width: 25vw;
@@ -65,7 +66,7 @@ header h1{
     width: 55vw;
     height: 6vh;
     margin-left: 49vw;
-    padding: 0 2.5vw;
+    padding: 0 2vw;
 }
 #ferramentas button{
     width: 9vmin;
@@ -83,6 +84,7 @@ header h1{
 /*------------------------------------------------------------------------*/
 /*--------------------------------- Capa ---------------------------------*/
 #parte1{
+    margin-bottom: 22vh;
     padding-top: 6.5vh;
     height: 65vmin;
     display: inline-flex;
@@ -94,10 +96,12 @@ header h1{
     font-size: 9vmin;
     color: white;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 #titulos h2{
     font-size: 12vmin;
     overflow-y: hidden;
+    
 }
 #titulos h3{
     font-size: 3vmin;
@@ -119,47 +123,52 @@ header h1{
 /*--------------------------- Sobre Identidade ---------------------------*/
 #identidade div{
     display: inline-flex;
+    margin: 0 12.5vw;
 }
 #identidade div .desc{
-    background-color: aliceblue;
-    color: black;
-    display: block;
-    width: 22vw;
-    height: 60vh;
-    margin: 0 2vw;
+    background-color: rgba(85, 8, 8, 40);
+    display: inline-block;
+    vertical-align: bottom;
+    width: 310px;
+    height: 350px;
+    margin: 2vh 2vw;
     padding: 2vh 2vw;
     border-radius: 2vmax 0;
+    font-size: 20px;
 }
 #identidade div .desc h3{
-    font-size: 2vmax;
+    font-size: 40px;
+}
+#identidade div .desc p{
+    padding-left: 30px;
 }
 /*------------------------------------------------------------------------*/
 /*----------------------------- Sobre o Jogo -----------------------------*/
 
 #sobreJogo img{
-    width: 45vmax;
-    height: 25vmax;
+    width: 900px;
+    height: 500px;
     position: absolute;
-    margin-left: 43vw;
-    transform: translate(-30vw, -20vh);
+    transform: translate(30vw, -20vh);
 }
 #sobreJogo div div{
     background-color: rgba(83, 0, 0, 40);
     border-radius: 3vmin;
-    width: 43vw;
-    height: 30vh;
-    padding: 1vmin 2vmin 4vmin 1vmin;
+    width: 900px;
+    height: 500px;
+    padding: 2vmin 4vmin 8vmin 2vmin;
     margin-left: 8vw;
 }
 #sobreJogo button{
-    width: 14vmin;
+    width: 140px;
     height: 5vh;
     font-size: 2vh;
     border-radius: 4vmin;
     border: 0px;
     background-image: linear-gradient(rgb(83, 0, 0), red);
     color:aliceblue;
-    margin: 0.5vh 3vw 0 8vw;
+    position: absolute;
+    transform: translate(0, 300px);
 }
 /*------------------------------------------------------------------------*/
 /*---------------------------- Sobre a equipe ----------------------------*/
