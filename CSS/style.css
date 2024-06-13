@@ -20,7 +20,7 @@ body{
     width: 90vw;
     height: 90vh;
     padding: 4vw;
-    margin: 0 1vw;
+    margin: 1vh 1vw;
 }
 .titulo{
     margin-bottom: 5vh;
@@ -99,6 +99,7 @@ header h1{
     overflow-x: hidden;
 }
 #titulos h2{
+    width: 500px;
     font-size: 12vmin;
     overflow-y: hidden;
     
@@ -122,16 +123,15 @@ header h1{
 /*------------------------------------------------------------------------*/
 /*--------------------------- Sobre Identidade ---------------------------*/
 #identidade div{
-    display: inline-flex;
     margin: 0 12.5vw;
+    display: inline-block;
+    vertical-align: bottom;
 }
 #identidade div .desc{
     background-color: rgba(85, 8, 8, 40);
-    display: inline-block;
-    vertical-align: bottom;
     width: 310px;
     height: 350px;
-    margin: 2vh 2vw;
+    margin: 2vh 1vw;
     padding: 2vh 2vw;
     border-radius: 2vmax 0;
     font-size: 20px;
@@ -267,6 +267,7 @@ header h1{
     resize: none;
     font-size: 2vh;
     color: white;
+    overflow-y: hidden;
 }
 #contato .email{
     height: 3vh;
