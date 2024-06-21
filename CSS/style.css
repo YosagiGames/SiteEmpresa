@@ -5,27 +5,31 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(85, 0, 0);
+    background-image: url("https://img.freepik.com/free-photo/3d-fire-with-flames_23-2151073813.jpg");
+    background-size: 110vw;
     color: white;
     font-size: 15px;
 }
 #caixa{
-    background-color: rgb(146, 30, 30);
+    background-color: rgb(92, 0, 0);
     display: grid;
     grid-template-columns: auto;
 }
 .sessao{
     display: grid;
     grid-template-columns: auto;
+    margin-bottom: 7vw;
 }
 .titulo{
-    margin-bottom: 5vh;
+    width: auto;
     font-size: 70px;
+    padding-left: 7vw;
+    margin-bottom: 5vh;
 }
 /*------------------------------------------------------------------------*/
 /*----------------------------- Barra scroll -----------------------------*/
 ::-webkit-scrollbar {
-    width: 0.5vw;
+    width: auto;
 }
   
   ::-webkit-scrollbar-track {
@@ -51,7 +55,7 @@ header{
     width: 100vw;
     height: 8vh;
     padding: 1vh;
-    background-color: rgb(85, 0, 0);
+    background-color: rgb(46, 0, 0);
     border-radius: 0 0 20px 20px;
 }
 header h1{
@@ -86,7 +90,7 @@ header h1{
 }
 /*------------------------------------------------------------------------*/
 /*--------------------------------- Capa ---------------------------------*/
-#parte1{
+#capa{
     margin-bottom: 17vh;
     padding-top: 6.5vh;
     height: 100vmin;
@@ -118,7 +122,7 @@ header h1{
     font-size: 1.8vmin;
     padding-left: 6vw;
 }
-#parte1 img{
+#capa img{
     width: 90vmin;
     height: 120vmin;
     margin-left: 35vw;
@@ -132,13 +136,13 @@ header h1{
     grid-template-columns: auto auto auto;
 }
 #identidade div .desc{
-    background-color: rgba(85, 8, 8, 40);
-    width: 310px;
-    height: 350px;
+    background-color: rgb(39, 0, 0);
+    width: 370px;
+    height: 300px;
     margin: 2vh 1vw;
     padding: 2vh 2vw;
     border-radius: 2vmax 0;
-    font-size: 20px;
+    font-size: 23px;
 }
 #identidade #MiViVa .desc h3{
     font-size: 40px;
@@ -156,7 +160,7 @@ header h1{
     position: absolute;
 }
 #sobreJogo #jogoDesc{
-    background-color: rgba(83, 0, 0, 40);
+    background-color: rgba(39, 0, 0, 0.7);
     border-radius: 3vmin;
     width: 900px;
     height: 500px;
@@ -183,9 +187,9 @@ header h1{
     grid-template-columns: auto auto auto auto auto auto;
 }
 .membro{
-    background-color: rgb(255, 255, 255);
-    width: 16vw;
-    height: 19vw;
+    background-color: rgb(97, 97, 97);
+    width: 330px;
+    height: auto;
     text-align: center;
     margin: 0 2vw;
     border-radius: 0 2vmin;
@@ -197,8 +201,8 @@ header h1{
     background-color: rgb(219, 219, 219);
 }
 .membro .infoMembro img{
-    width: 11vw;
-    height: 13vw;
+    width: 260px;
+    height: 300px;
     margin: auto;
 }
 .membro h2{
@@ -206,15 +210,15 @@ header h1{
 }
 .membro .links{
     display: inline-flex;
-    margin-top:0.5vmax
+    margin: 10px 0;
 }
 .membro .links img{
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 40px;
+    height: 40px;
     margin: 0 0.25vmax;
 }
 .membro .links div{
-    padding-right: 0.25vw;
+    padding: 7px 0 2.5px 0;
     display: inline-flex;
     margin-right: 1.5vw;
 }
@@ -230,7 +234,7 @@ header h1{
     padding-top: 1.5vh;
     position: absolute;
     font-size: 1vmax;
-    transform: rotate(270deg) translate(11vw, -27.8vw);
+    transform: rotate(270deg) translate(240px, -208px);
 }
 /*------------------------------------------------------------------------*/
 /*----------------------------- Contate-nos -----------------------------*/
@@ -251,7 +255,7 @@ header h1{
 #contato div{
     width: 40vmin;
     height: 37vh;
-    background-color: rgba(92, 0, 0, 70);
+    background-color: rgba(39, 0, 0, 0.7);
     padding: 1.25vh 1.25vw;
     border-radius: 2vmin;
     margin: 0 auto;
