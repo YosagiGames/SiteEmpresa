@@ -80,14 +80,15 @@ header h1{
     height: 6vh;
     margin: 0 0.5vw;
     background-color: transparent;
-    border: 0;
+    border: 30px;
     font-size: large;
     color: aliceblue;
     justify-content: flex-end;
 }
 #ferramentas button:hover{
-    color:red;
-    background-color: rgb(255, 133, 133);
+    color:rgb(0, 0, 0);
+    border: 100%;
+    background: radial-gradient(rgb(255, 0, 0), rgb(46, 0, 0));
 }
 /*------------------------------------------------------------------------*/
 /*--------------------------------- Capa ---------------------------------*/
@@ -194,10 +195,9 @@ header h1{
     width: 330px;
     height: auto;
     text-align: center;
-    margin: 0 2vw;
     border-radius: 0 2vmin;
     overflow-y: hidden;
-    margin: 0 auto 5vh auto;
+    margin: 0 30px 5vh 30px;
 }
 .membro .infoMembro{
     display: block;
