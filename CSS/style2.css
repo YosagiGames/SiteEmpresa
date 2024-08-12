@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1920px) {
+    /*--------------------------------- Capa ---------------------------------*/
+    #titulos{
+        position: absolute;
+        padding: 4vmin 0 0 14vw;
+        font-size: 9vmin;
+        color: white;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        z-index: 1;
+    }
+    #titulos h2{
+        width: 700px;
+        font-size: 150px;
+        overflow-y: hidden;
+        
+    }
+    #titulos h3{
+        font-size: 20px;
+        padding-left: 3vw;
+    }
+    #titulos p{
+        width: 30vw;
+        font-size: 1.8vmin;
+        padding-left: 6vw;
+    }
+    #capa{
+        height: 44vmin;
+    }
+    #capa img{
+        width: 65vmin;
+        height: 90vmin;
+        margin-left: 50vw;
+        position: absolute;
+    }
+    /*------------------------------------------------------------------------*/
+    /*--------------------------- Sobre Identidade ---------------------------*/
+    #identidade #MiViVa{
+        grid-template-columns: auto;
+    }
+    #identidade div .desc{
+        width: 740px;
+        margin: 2vh auto;
+    }
+    /*------------------------------------------------------------------------*/
+    /*----------------------------- Sobre o Jogo -----------------------------*/
+    
+    #sobreJogo img{
+        width: 650px;
+        height: 400px;
+        transform: translate(40vw, 30vh);
+    }
+    /*------------------------------------------------------------------------*/
+    /*---------------------------- Sobre a equipe ----------------------------*/
+    #equipe{
+        width: 100vw;
+    }
+    #membros{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .membro{
+        width: 290px;
+    }
+
+    .membro .infoMembro img{
+        width: 200px;
+        height: 220px;
+        margin: auto;
+    }
+    .membro .links img{
+        width: 40px;
+        height: 40px;
+        margin: 0 0.25vmax;
+    }
+    .membro .links div{
+        padding: 7px 0 2.5px 0;
+        display: inline-flex;
+        margin-right: 75px;
+    }
+    .membro .links h4{
+        font-size: 15px;
+        width: 66px;
+        margin: auto;
+    }
+    /*------------------------------------------------------------------------*/
+    /*----------------------------- Contate-nos -----------------------------*/
+    #contato{
+        color: aliceblue;
+        border-radius: 2vmin;
+        text-align: center;
+        margin: 0 auto;
+        overflow-y: hidden;
+    }
+    #contato h2{
+        width: auto;
+        height: 6vh;
+        border-radius: 2vmin;
+        font-size: 5vh;
+        margin: 1.5vh auto;
+        padding: 0;
+    }
+    #contato div{
+        width: 40vmin;
+        height: 37vh;
+        background-color: rgba(39, 0, 0, 0.7);
+        padding: 1.25vh 1.25vw;
+        border-radius: 2vmin;
+        margin: 0 auto;
+    }
+    #contato textarea{
+        background-color: rgba(65, 0, 0,70);
+        border-radius: 2vmin;
+        border: 0;
+        text-align: left;
+        width: 30vmin;
+        padding: 1vh 1.5vw;
+        resize: none;
+        font-size: 20px;
+        color: white;
+        overflow-y: hidden;
+    }
+    #contato .email{
+        height: 50px;
+        margin-bottom: 2vh;
+    }
+    #contato .mensagem{
+        height: 20vmin;
+        margin-bottom: 1vh;
+    }
+    #contato button{
+        width: 14vmin;
+        height: 5vh;
+        font-size: 2vh;
+        border-radius: 4vmin;
+        border: 0px;
+        background-image: linear-gradient(rgb(83, 0, 0), red);
+        color:aliceblue;
+        margin: 0.5vh 3vw 0 3vw;
+    }
+  }

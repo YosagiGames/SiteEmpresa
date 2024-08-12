@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -166,6 +167,8 @@ header h1{
     height: 500px;
     padding: 2vmin 4vmin 8vmin 2vmin;
     margin-left: 8vw;
+    font-size: 20px;
+    overflow-y: hidden;
 }
 #sobreJogo button{
     width: 140px;
@@ -175,7 +178,7 @@ header h1{
     border: 0px;
     background-image: linear-gradient(rgb(83, 0, 0), red);
     color:aliceblue;
-    transform: translate(0, 300px);
+    transform: translate(0, 250px);
 }
 /*------------------------------------------------------------------------*/
 /*---------------------------- Sobre a equipe ----------------------------*/
@@ -194,6 +197,7 @@ header h1{
     margin: 0 2vw;
     border-radius: 0 2vmin;
     overflow-y: hidden;
+    margin: 0 auto 5vh auto;
 }
 .membro .infoMembro{
     display: block;
@@ -227,14 +231,12 @@ header h1{
     width: 4.5vw;
     margin: auto;
 }
-.membro h3{
-    width: 18vw;
-    height: 4vh;
-    margin-bottom: 2vmin;
-    padding-top: 1.5vh;
+.membro .func{
     position: absolute;
-    font-size: 1vmax;
-    transform: rotate(270deg) translate(240px, -208px);
+    font-size: 20px;
+    width: 220px;
+    transform: translate(-95px, -160px) rotate(-90deg);
+    color: black;
 }
 /*------------------------------------------------------------------------*/
 /*----------------------------- Contate-nos -----------------------------*/
@@ -246,11 +248,12 @@ header h1{
     overflow-y: hidden;
 }
 #contato h2{
-    width: 40vmin;
+    width: auto;
     height: 6vh;
     border-radius: 2vmin;
     font-size: 5vh;
     margin: 1.5vh auto;
+    padding: 0;
 }
 #contato div{
     width: 40vmin;
@@ -268,12 +271,12 @@ header h1{
     width: 30vmin;
     padding: 1vh 1.5vw;
     resize: none;
-    font-size: 2vh;
+    font-size: 20px;
     color: white;
     overflow-y: hidden;
 }
 #contato .email{
-    height: 3vh;
+    height: 50px;
     margin-bottom: 2vh;
 }
 #contato .mensagem{
