@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://img.freepik.com/free-photo/3d-fire-with-flames_23-2151073813.jpg");
+    background-size: 110vw;
+    color: white;
+    font-size: 15px;
+}
+#caixa{
+    background-color: rgb(92, 0, 0);
+    display: grid;
+    grid-template-columns: auto;
+}
+.sessao{
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 7vw;
+}
+.titulo{
+    width: auto;
+    font-size: 70px;
+    padding-left: 7vw;
+    margin-bottom: 5vh;
+}
+/*------------------------------------------------------------------------*/
+/*----------------------------- Barra scroll -----------------------------*/
+::-webkit-scrollbar {
+    width: auto;
+}
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(59, 0, 0);
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(rgb(59, 0, 0), rgb(0, 0, 0), rgb(59,0,0));
+    border-radius: 20px;
+    height: 2px;
+}
+  ::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(rgb(59, 0, 0), rgb(255, 208, 0),rgb(59, 0, 0));
+
+}
+/*------------------------------------------------------------------------*/
+/*---------------------------- Barra superior ----------------------------*/
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+    height: 8vh;
+    padding: 1vh;
+    background-color: rgb(46, 0, 0);
+    border-radius: 0 0 20px 20px;
+}
+header h1{
+    padding: 1vh;
+    width: 50vw;
+    height: 6vh;
+    font-size: 4vmin;
+    overflow-y: hidden;
+}
+#ferramentas{
+    width: 50vw;
+    height: 6vh;
+    padding: 0 2vw;
+    display: flex;                 
+    flex-direction: row;            
+    flex-wrap: nowrap;              
+    justify-content: end;
+}
+#ferramentas button{
+    width: 9vmin;
+    height: 6vh;
+    margin: 0 0.5vw;
+    background-color: transparent;
+    border: 30px;
+    font-size: large;
+    color: aliceblue;
+    justify-content: flex-end;
+}
+#ferramentas button:hover{
+    color:rgb(0, 0, 0);
+    border: 100%;
+    background: radial-gradient(rgb(255, 0, 0), rgb(46, 0, 0));
+}
+/*------------------------------------------------------------------------*/
+/*--------------------------------- Capa ---------------------------------*/
+#capa{
+    margin-bottom: 17vh;
+    padding-top: 6.5vh;
+    height: 100vmin;
+    display: inline-flex;
+}
+#titulos{
+    width: auto;
+    height: auto;
+    position: absolute;
+    padding: 4vmin 0 0 14vw;
+    font-size: 9vmin;
+    color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 1;
+}
+#titulos h2{
+    width: 700px;
+    font-size: 200px;
+    overflow-y: hidden;
+    
+}
+#titulos h3{
+    font-size: 3vmin;
+    padding-left: 3vw;
+}
+#titulos p{
+    width: 30vw;
+    font-size: 1.8vmin;
+    padding-left: 6vw;
+}
+#capa img{
+    width: 90vmin;
+    height: 120vmin;
+    margin-left: 35vw;
+    position: absolute;
+}
+/*------------------------------------------------------------------------*/
+/*--------------------------- Sobre Identidade ---------------------------*/
+#identidade #MiViVa{
+    margin: 0 12.5vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#identidade div .desc{
+    background-color: rgb(39, 0, 0);
+    width: 370px;
+    height: 300px;
+    margin: 2vh 1vw;
+    padding: 2vh 2vw;
+    border-radius: 2vmax 0;
+    font-size: 23px;
+}
+#identidade #MiViVa .desc h3{
+    font-size: 40px;
+}
+#identidade #MiViVa .desc p{
+    padding-left: 30px;
+}
+/*------------------------------------------------------------------------*/
+/*----------------------------- Sobre o Jogo -----------------------------*/
+
+#sobreJogo img{
+    width: 900px;
+    height: 500px;
+    transform: translate(30vw, 25vh);
+    position: absolute;
+}
+#sobreJogo #jogoDesc{
+    background-color: rgba(39, 0, 0, 0.7);
+    border-radius: 3vmin;
+    width: 900px;
+    height: 500px;
+    padding: 2vmin 4vmin 8vmin 2vmin;
+    margin-left: 8vw;
+    font-size: 20px;
+    overflow-y: hidden;
+}
+#sobreJogo button{
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 4vmin;
+    border: 0px;
+    background-image: linear-gradient(rgb(83, 0, 0), red);
+    color:aliceblue;
+    transform: translate(0, 250px);
+}
+/*------------------------------------------------------------------------*/
+/*---------------------------- Sobre a equipe ----------------------------*/
+#equipe{
+    width: 100vw;
+}
+#membros{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.membro{
+    background-color: rgb(97, 97, 97);
+    width: 330px;
+    height: auto;
+    text-align: center;
+    border-radius: 0 2vmin;
+    overflow-y: hidden;
+    margin: 0 30px 5vh 30px;
+}
+.membro .infoMembro{
+    display: block;
+    padding-top: 2vh;
+    background-color: rgb(219, 219, 219);
+}
+.membro .infoMembro img{
+    width: 260px;
+    height: 300px;
+    margin: auto;
+}
+.membro h2{
+    font-size: 2vh;
+}
+.membro .links{
+    display: inline-flex;
+    margin: 10px 0;
+}
+.membro .links img{
+    width: 40px;
+    height: 40px;
+    margin: 0 0.25vmax;
+}
+.membro .links div{
+    padding: 7px 0 2.5px 0;
+    display: inline-flex;
+    margin-right: 1.5vw;
+}
+.membro .links h4{
+    font-size: 1vmax;
+    width: 4.5vw;
+    margin: auto;
+}
+.membro .func{
+    position: absolute;
+    font-size: 20px;
+    width: 220px;
+    transform: translate(-95px, -160px) rotate(-90deg);
+    color: black;
+}
+/*------------------------------------------------------------------------*/
+/*----------------------------- Contate-nos -----------------------------*/
+#contato{
+    color: aliceblue;
+    border-radius: 2vmin;
+    text-align: center;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+#contato h2{
+    width: auto;
+    height: 6vh;
+    border-radius: 2vmin;
+    font-size: 5vh;
+    margin: 1.5vh auto;
+    padding: 0;
+}
+#contato div{
+    width: 40vmin;
+    height: 37vh;
+    background-color: rgba(39, 0, 0, 0.7);
+    padding: 1.25vh 1.25vw;
+    border-radius: 2vmin;
+    margin: 0 auto;
+}
+#contato textarea{
+    background-color: rgba(65, 0, 0,70);
+    border-radius: 2vmin;
+    border: 0;
+    text-align: left;
+    width: 30vmin;
+    padding: 1vh 1.5vw;
+    resize: none;
+    font-size: 20px;
+    color: white;
+    overflow-y: hidden;
+}
+#contato .email{
+    height: 50px;
+    margin-bottom: 2vh;
+}
+#contato .mensagem{
+    height: 20vmin;
+    margin-bottom: 1vh;
+}
+#contato button{
+    width: 14vmin;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 4vmin;
+    border: 0px;
+    background-image: linear-gradient(rgb(83, 0, 0), red);
+    color:aliceblue;
+    margin: 0.5vh 3vw 0 3vw;
+}
