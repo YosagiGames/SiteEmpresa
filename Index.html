@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/style2.css">
+    <link id="style" rel="stylesheet" href="CSS/style.css">
     <title>Yosagi Games</title>
 </head>
 <body>
     <header>
         <h1>YOSAGI</h1>
         <div id="ferramentas">
-            <button type="button">Home</button>
-            <button type="button">Sobre Nós</button>
-            <button type="button" href="#sobreJogo">Lançamentos</button>
-            <button type="button">Equipe</button>
-            <button type="button">Fale Conosco</button>
+            <a href="#capa"><button type="button">Home</button></a>
+            <a href="#identidade"><button type="button">Identidade</button></a>
+            <button type="button">Aplicativo</button>
+            <a href="#sobreJogo"><button type="button">Lançamentos</button></a>
+            <a href="#equipe"><button type="button">Desenvolvedores</button></a>
+            <a href="#local"><button type="button">Local</button></a>
+            <a href="#contato"><button type="button">Fale Conosco</button></a>
         </div>
     </header>
 
     <div id="capa">
         <div id="titulos">
             <h2>Yosagi Games</h2>
-            <h3 calss="titulo">Desenvolvedora brasileira de jogos</h3>
+            <h3 calss="titulo">Desenvolvedora brasileira de jogos digitais</h3>
         </div>
         <img src="img/gatoSite.png" title="gato">
     </div>
@@ -58,18 +59,36 @@
                 <p>Nossos mapas tem dificuldade variada além de fatores naturais e únicos de cada um que deixam o jogo ainda mais intuitivo e divertido para diversos públicos, desde os que gostam mais de uma competição frenética ou mesmo os que se maravilham vendo todo um universo sendo construído.</p>
                 <button type="button">Em breve</button>
             </div>
-            <img src="https://i.pinimg.com/originals/39/3a/d2/393ad2fbde2a79a24e59b742fd4a251d.png" title="jogo">
+            <iframe width="748" height="409.5" src="https://www.youtube.com/embed/rM_ziKj_zO8?si=efmAvBBACm0Q98YC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="imgFerramentas">
+                <img src="img/krita.png" title="krita">
+                <img src="img/blender.png" title="blender">
+                <img src="img/unity.png" title="unity">
+            </div>
+        </article>
+
+        <article class="sessao" id="aplicativo">
+            <h2 class="titulo">Aplicativo</h2>
+            <div id="appDesc">
+                <p>A aplicação mobile de Caos Crusier é um app informativo que irá conter as mais diversas informações sobre o jogo, como detalhes dos carros e cenários, descrição dos elementos da arte, entre outros.</p>
+                <br>
+                <p>O objetivo deste projeto é apresentar o aplicativo móvel sobre o jogo do nosso TCC, Caos Crusier, e todo o seu desenvolvimento, desde a elaboração até a versão finalizada.</p>
+                <button type="button">Baixe Aqui</button>
+            </div>
+            <div class="imgFerramentas">
+                <img src="img/vsCode.png" title="Visual Studio">
+            </div>
         </article>
 
 
 
         <article class="sessao" id="equipe">
-            <h2 class="titulo">Nossa Equipe</h2>
+            <h2 class="titulo">Desenvolvedores</h2>
 
             <div id="membros">
                 <div class="membro">
                     <div class="infoMembro">
-                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="feio">
+                        <img src="img/filipe.jpeg" title="membro">
                     </div>   
                     <div class="func"><h3>Developer</h3></div>
                     <div class="links">
@@ -85,7 +104,7 @@
 
                 <div class="membro">
                     <div class="infoMembro">
-                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="feio">
+                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="membro">
                     </div>   
                     <div class="func"><h3>Game Artist</h3></div>
                     <div class="links">
@@ -101,7 +120,7 @@
 
                 <div class="membro">
                     <div class="infoMembro">
-                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="feio">
+                        <img src="img/lapa.jpeg" title="membro">
                     </div>   
                     <div class="func"><h3>Designer 3D</h3></div>
                     <div class="links">
@@ -117,7 +136,7 @@
 
                 <div class="membro">
                     <div class="infoMembro">
-                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="feio">
+                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="membro">
                     </div>   
                     <div class="func"><h3>Marketeira</h3></div>
                     <div class="links">
@@ -133,7 +152,7 @@
 
                 <div class="membro">
                     <div class="infoMembro">
-                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="feio">
+                        <img src="img/robert.jpeg" title="membro">
                     </div>   
                     <div class="func"><h3>Game Designer</h3></div>
                     <div class="links">
@@ -148,7 +167,7 @@
 
                 <div class="membro">
                     <div class="infoMembro">
-                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="feio">
+                        <img src="https://static-00.iconduck.com/assets.00/user-square-icon-2048x2048-xap5edxp.png" title="membro">
                     </div>   
                     <div class="func"><h3>Level Designer</h3></div>
                     <div class="links">
@@ -164,15 +183,23 @@
             
         </article>
 
+        <article class="sessao" id="local">
+            <h2 class="titulo">Contato</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1087.4304823803552!2d-46.68241017607814!3d-23.544527658790834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ed254b1811%3A0xff7f8a23dde7e230!2sEdif%C3%ADcio%20Victor%20Civita!5e0!3m2!1spt-BR!2sbr!4v1730772834481!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
 
-            <article class="sessao" id="contato">
-                <h2 class="titulo">Fale conosco</h2>
+    
+        <article id="redes" class="sessao">
+            <div class="links">
                 <div>
-                    <textarea class="email" maxlength="81" placeholder="Coloque seu Email"></textarea>
-                    <textarea class="mensagem" maxlength="1328" placeholder="Digite sua mensagem"></textarea>
-                    <button type="button">Enviar</button>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/github.png"></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/insta.png"></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/linkedin.png"></a>
                 </div>
-            </article>
+            </div>
+        </article>
+
+        <footer>©2024 Yosagi Games. Todos os direitos reservados. Desenvolvido por Yosagi Games</footer>
     </div>
     <script src="js/main.js"></script>
 </body>
