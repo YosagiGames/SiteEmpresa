@@ -302,10 +302,13 @@ header h1{
 #local{
     margin: auto;
     display: grid;
-    grid-template-columns: 800px 300px;
+    grid-template-columns: 750px 350px;
 }
-#local p{
-    transform: translate(0, 30%);
+#local ul{
+    transform: translate(0, 50%);
+}
+#local ul li{
+    margin: 10px 0px;
 }
 #contato{
     margin-bottom: 300px;
