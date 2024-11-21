@@ -79,7 +79,7 @@ header h1{
     padding: 1vh;
     width: 200px;
     height: 6vh;
-    font-size: 4vmin;
+    font-size: 35px;
     overflow-y: hidden;
 }
 #ferramentas{
@@ -140,7 +140,7 @@ header h1{
 #titulos p{
     width: 30vw;
     margin: 30px 0 60px 0;
-    font-size: 1.8vmin;
+    font-size: 16px;
     padding-left: 0.5vw;
 }
 #capa img{
@@ -163,7 +163,7 @@ header h1{
 }
 #identidade div .desc{
     background-color: rgb(39, 0, 0);
-    width: 370px;
+    width: auto;
     height: 300px;
     margin: 2vh 1vw;
     padding: 2vh 2vw;
@@ -325,7 +325,7 @@ header h1{
     margin-top: 60px;
 }
 #redes h3{
-    transform: translate(425px, 0);
+    transform: translate(25vw, 0);
 }
 #redes .links{
     display: inline-flex;
