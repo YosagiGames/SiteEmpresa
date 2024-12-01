@@ -8,7 +8,7 @@ sessao = document.getElementsByClassName("sessao");
 hq = document.getElementById("pag");
 pagAtual = 0;
 
-const pags = 4;
+const pags = 9;
 
 window.onload = function() {   
     
