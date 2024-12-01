@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="style" rel="stylesheet" href="CSS/style.css">
-    <title>Yosagi Games</title>
+    <title>Yosagi Games - Main</title>
 </head>
 <body>
     <header>
         <img src="img/gatoTeste.png" title="Yosagi">
         <h1>YOSAGI</h1>
         <div id="ferramentas">
-            <a href="#capa"><button type="button">Home</button></a>
-            <a href="#identidade"><button type="button">Identidade</button></a>
-            <button type="button">Aplicativo</button>
-            <a href="#sobreJogo"><button type="button">Lançamentos</button></a>
-            <a href="#equipe"><button type="button">Time</button></a>
-            <a href="#local"><button type="button">Local</button></a>
-            <a href="#contato"><button type="button">Fale Conosco</button></a>
+            <a href="index.html#capa"><button type="button">Home</button></a>
+            <a href="index.html#identidade"><button type="button">Identidade</button></a>
+            <a href="CaosCruiser.html#aplicativo"></a><button type="button">Aplicativo</button>
+            <a href="index.html#sobreJogo"><button type="button">Lançamentos</button></a>
+            <a href="index.html#equipe"><button type="button">Time</button></a>
+            <a href="index.html#local"><button type="button">Local</button></a>
+            <a href="index.html#contato"><button type="button">Fale Conosco</button></a>
         </div>
     </header>
 
-    <div id="capa">
+    <div class="capa">
         <div id="titulos">
             <h2>YOSAGI GAMES</h2>
             <h3 calss="titulo">QUEM SOMOS NÓS?</h3>
@@ -32,7 +32,7 @@
         <img src="img/gatoSite.png" title="gato">
     </div>
 
-    <div id="caixa">
+    <div class="caixa">
 
 
         <article class="sessao" id="identidade">
@@ -59,33 +59,12 @@
             <div id="jogoDesc">
                 <h2 class="titulo">Caos Cruiser</h2>
                 <p>	O jogo conta com uma variedade de veiculos e cenários onde o jogador pode desrutar de cada um e descobrir seu faborito, seja por aparência ou habilidade. Nossos mapas têm dificuldade variada além de fatores naturais e únicos de cada um que deixam o jogo ainda mais intuitivo e divertido para diversos públicos, desde os que gostam de competições frenéticas ou mesmo os que se maravilham vendo todo um universo sendo construido.</p>
-                <button type="button">Baixe Aqui</button>
+                <a href="CaosCruiser.html"><button type="button">Saiba Mais</button></a>
             </div>
             <div>
                 <iframe width="748" height="409.5" src="https://www.youtube.com/embed/rVy_yK_vhlo?si=MAPadJYBwRnJ8FGB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="imgFerramentas">
-                    <img src="img/krita.png" class="item" title="krita">
-                    <img src="img/blender.png" class="item" title="blender">
-                    <img src="img/unity.png" class="item" title="unity">
-                    <img src="img/toolsai.png" class="item" title="sai">
-                </div>
             </div>
         </article>
-
-        <article class="sessao" id="aplicativo">
-            <div id="appDesc">
-                <h2 class="titulo">Aplicativo</h2>
-                <p>Descubra  o universo de Caos Crusier com nosso aplicativo oficial! Este guia abrangente oferece tudo sobre o jogo, desde veículos e cenários até dicas estratégicas para dominar as pistas. Explore cada detalhe, aprenda sobre as habilidades únicas de cada carro e prepare-se para a competição frenética. Venha acelerar sua experiencia</p>
-                <button type="button">Baixe Aqui</button>
-            </div>
-            <div>
-                <img src="img/mobile.png" title="Mobile" id="imgMobile">
-                <div class="imgFerramentas">
-                    <img src="img/vsCode.png" class="item" title="Visual Studio">
-                </div>
-            </div>
-        </article>
-
 
 
         <article class="sessao" id="equipe">
@@ -195,30 +174,28 @@
                 <div>
                     <h3>Local</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1087.4304823803552!2d-46.68241017607814!3d-23.544527658790834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ed254b1811%3A0xff7f8a23dde7e230!2sEdif%C3%ADcio%20Victor%20Civita!5e0!3m2!1spt-BR!2sbr!4v1730772834481!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>    
-                <div id="infoLocal">
-                    <p>
-                        <ul style="list-style-type:circle">
-                            <li>Av. Prof. Alfonso Bovero, 52 - Sumaré. São Paulo/SP</li>
-                            <li>CEP: 02354-00</li>
-                            <li>Telefone: (11)2355-0924</li>
-                            <li>Email Para Contato: YosagiGamesCompany@gmail.com</li>
-                        </ul> 
-                    </p>
+                    <div id="infoLocal">
+                        <p>
+                            Av. Prof. Alfonso Bovero, 52 - Sumaré. São Paulo/SP - CEP: 02354-00
+                        </p>
+                    </div>
+                </div>  
+                <div id="divisa"></div>  
+                <div id="redes">
+                    <h3>Redes Sociais</h3>
+                    <div class="links">
+                        <div>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/github.png"></a>
+                            <p>YosagiGames</p>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/insta.png"></a>             
+                            <p>@yosagi.games</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
         
-            <div id="redes">
-                <h3>Redes Sociais</h3>
-                <div class="links">
-                    <div>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/github.png"></a>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/insta.png"></a>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/linkedin.png"></a>
-                    </div>
-                </div>
-            </div>
+            
         </article>    
 
         <footer>©2024 Yosagi Games. Todos os direitos reservados. Desenvolvido por Yosagi Games</footer>

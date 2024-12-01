@@ -10,7 +10,7 @@ body{
     color: white;
     font-size: 15px;
 }
-#caixa{
+.caixa{
     background-color: rgb(92, 0, 0);
     display: grid;
     grid-template-columns: auto;
@@ -24,20 +24,6 @@ body{
     width: auto;
     font-size: 90px;
     margin-bottom: 5vh;
-}
-.imgFerramentas{
-    width:270px;
-    height: 50px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    margin-top: 10px;
-    margin-left: auto;
-    transform: translate(-6vw, 0);
-}
-.imgFerramentas .item{
-    width: 50px;
-    height: 50px;
-    margin: 0 5px;
 }
 /*------------------------------------------------------------------------*/
 /*----------------------------- Barra scroll -----------------------------*/
@@ -110,7 +96,7 @@ header h1{
 }
 /*------------------------------------------------------------------------*/
 /*--------------------------------- Capa ---------------------------------*/
-#capa{
+.capa{
     margin-bottom: 17vh;
     padding-top: 6.5vh;
     height: 100vmin;
@@ -143,7 +129,7 @@ header h1{
     font-size: 16px;
     padding-left: 0.5vw;
 }
-#capa img{
+.capa img{
     width: 108vmin;
     height: 144vmin;
     margin-left: 35vw;
@@ -302,13 +288,20 @@ header h1{
 #local{
     margin: auto;
     display: grid;
-    grid-template-columns: 750px 350px;
+    grid-template-columns: 39vw 0.25vw 39vw;
+    gap: 5vw;
+    padding: 5vw;
+    width: 80vw;
+    background-color: rgba(31, 0, 0, 0.514);
+    border-radius: 30px;
+    box-shadow: inset 0px 0px 40px 40px rgb(92,0,0);
 }
-#local ul{
-    transform: translate(0, 50%);
+#local #divisa{
+    background-color: aliceblue;
 }
-#local ul li{
-    margin: 10px 0px;
+#local #infoLocal p{
+    margin-top: 5vh;
+    text-align: center;
 }
 #contato{
     margin-bottom: 300px;
@@ -323,17 +316,17 @@ header h1{
     border-radius: 30px;
     transform: translate(60px, 0);
 }
-
-#redes{
-    margin-top: 60px;
-}
 #redes h3{
-    transform: translate(25vw, 0);
+    font-size: 50px;
 }
-#redes .links{
-    display: inline-flex;
-    width: auto;
-    margin: 10px 25vw;
+#redes .links div{
+    display: grid;
+    grid-template-columns: 45px auto;
+    width: 20vw;
+}
+#redes .links div p{
+    width: 15vw;
+    margin: auto;
 }
 #redes .links img{
     width: 40px;
@@ -349,7 +342,145 @@ footer{
 }
 
 
+/*------------------------------------------------------------------------*/
+/*----------------------------- Pagina do jogo -----------------------------*/
 
+.capaJogo{
+    background-image: url('../Img/capa.png');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+}
+.capaJogo img{
+    width: 40vw;
+    height: 55vh;
+    position: absolute;
+    border-radius: 30px;
+    transform: translate(50vw, 0);
+}
+.capaJogo button{
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 4vmin;
+    border: 0px;
+    background-color: rgb(31, 0, 0);
+    color:aliceblue;
+    margin-top: 40px;
+}
+.grad{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    background-image: linear-gradient(rgba(87, 0, 0, 0.678),rgba(77, 0, 0, 0.699));
+}
+
+#trailer{
+    width: 70vw;
+    margin: auto;
+    margin-top: 10vh;
+}
+#trailer h3{
+    text-align: center;
+}
+#trailer iframe{
+    width: 70vw;
+    height: 70vh;
+}
+
+
+.carroI{ 
+    width: 65vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    margin: auto;
+    margin-top: 15vh;
+    padding: 0 5vw;
+}
+.carroI p{
+    position: relative;
+    z-index: 1;
+}
+.carroI h3{
+    font-size: 90px;
+    margin-bottom: 3vh;
+}
+.carroI img{
+    position: absolute;
+    transform: translate(20vw, 0);
+}
+
+.carroII{ 
+    width: 65vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    margin: auto;
+    margin-top: 15vh;
+    padding: 0 5vw;
+}
+.carroII p{
+    position: relative;
+    z-index: 1;
+}
+.carroII h3{
+    font-size: 90px;
+    margin-bottom: 3vh;
+}
+.carroII img{
+    transform: translate(-5vw, 0) scaleX(-1);
+}
+
+
+
+#hq{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90vw;
+}
+#hq #hqDesc{
+    width: 750px;
+    height: auto;
+    padding: 2vmin 4vmin 8vmin 2vmin;
+    margin-left: 8vw;
+    font-size: 20px;
+    overflow-y: hidden;
+    text-align: justify;
+}
+#comic img{
+    width: 17.5vw;
+    height: 57.5vh;
+}
+#comic div{
+    width: 17.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+#comic div button{
+    background-color: transparent;
+    font-size: 70px;
+    border-color: transparent;
+}
+#comic div button:hover{
+    color: red;
+}
+
+#ferra{
+    margin-bottom: 10vh;
+    padding: 0 10vw;
+}
+#ferra div{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+}
+#ferra img{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
 
 
 @media only screen and (max-width: 950px) {
@@ -458,11 +589,13 @@ footer{
         margin: auto;
         display: grid;
         grid-template-columns: 750px;
+        gap: 0;
+        height: 90vh;
+        padding: 10vh;
     }
     #local p{
         width: 600px;
-        height: auto;
-        transform: translate(0,0);
+        height: 50px;
         margin-top: 20px;
     }
     #local iframe{
@@ -470,7 +603,14 @@ footer{
         height: 270px;
     }
     #redes h3{
-        transform: translate(100px, 0);
+        transform: translate(4vw, 0);
+    }
+    #redes .links div{
+        margin: auto;
+    }
+    #local #divisa{
+        width: 0;
+        height: 0;
     }
 
   }
