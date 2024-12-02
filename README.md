@@ -12,10 +12,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Você tem uma máquina `Windows / Linux / Mac`.
 - Você leu LINK DA WIKI.
 
-## 🚀 Iniciando o Site
-
-Para iniciar o site, clique AQUI
-
 ## 📫 Contribuindo para a empresa
 
 Para contribuir com nossa empresa, você pode visitar nossas redes sociais para ajudar na divulgação de nosso trabalho.
