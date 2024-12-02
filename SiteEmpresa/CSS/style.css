@@ -218,8 +218,9 @@ header h1{
     margin-top: 40px;
 }
 #aplicativo #imgMobile{
-    width: 748px;
-    height: 409.5px;
+    width: 459.5px;
+    height: 459.5px;
+    border-radius: 30px;
 }
 /*------------------------------------------------------------------------*/
 /*---------------------------- Sobre a equipe ----------------------------*/
